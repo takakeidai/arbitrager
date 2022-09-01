@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+.DS_Store
+settings.ini
+.env
+notes.txt
+test.py
+save/
+requirements.txt
+settings.py
