@@ -29,4 +29,6 @@ api_manager = ApiManager(bybit = bybit, binance = binance, judge = judge, multi_
 arbitrator = Arbitrator(product_codes = product_codes, api_manager = api_manager,  notifier = notifier, units_calculator = units_calculator)
 arbitrator.start_arbitrage()
 
+# end of line break
+
     

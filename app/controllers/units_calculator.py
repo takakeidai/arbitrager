@@ -22,11 +22,4 @@ class UnitsCalculator():
         units = float(settings.funds / self.mid_price(bybit_price, binance_price)) 
         return self.format_value(units)
 
-if __name__ == '__main__':
-    pass
-
-    # Do Test in main.py
-    # price_1 = 24679.0
-    # price_2 = 25649.2
-    # uc = UnitsCalculator()
-    # print(uc.get_units(bybit_price = price_1, binance_price = price_2))
+# end of line break

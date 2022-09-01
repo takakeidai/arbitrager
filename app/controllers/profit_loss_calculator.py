@@ -34,6 +34,4 @@ class ProfitLossCalculator():
         # for trade settlement
         pass
     
-    
-if __name__ == '__main__':
-    pass
+# end of line break

@@ -80,5 +80,4 @@ class Notify():
             data = data
         )
         
-if __name__ == '__main__':
-    pass
+# end of line break

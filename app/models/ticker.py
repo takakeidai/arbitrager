@@ -17,4 +17,5 @@ class Tickers():
         self.binance_volume = kwargs['binance_volume'] if 'binance_volume' in kwargs.keys() else None
         self.bybit_open_interest = kwargs['bybit_open_interest'] if 'bybit_open_interest' in kwargs.keys() else None
         self.binance_open_interest = kwargs['binance_open_interest'] if 'binance_open_interest' in kwargs.keys() else None
-        
+
+# end of line break

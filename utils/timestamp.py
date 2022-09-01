@@ -54,42 +54,5 @@ def python_timestamp_to_binance_timestamp(python_timestamp):
     timestamp = timestamp * 1000
     return timestamp
 
+# end of line break
 
-
-if __name__ == '__main__':
-    pass
-    # Do TEST in main.py
-    # from app.models.timestamp import (
-    #     generate_timestamp_for_now,
-    #     generate_timestamp_for_current_minute,
-    #     generate_timestamp_before_time_delta,
-    #     convert_timestamp_to_int,
-    #     timestamp_to_date
-    # )
-    # from datetime import datetime
-    # # get data of timestamp
-    # now = datetime.now()
-    # current_timestamp = generate_timestamp_for_now()
-    # current_minutes = generate_timestamp_for_current_minute()
-    # time_1 = generate_timestamp_before_time_delta(10)
-    # time_2 = generate_timestamp_before_time_delta()
-    # print(now)
-    # print(current_timestamp)
-    # print(current_minutes)
-    # print(time_1)
-    # print(time_2)
-    # # to_integer
-    # int_current_timestamp = convert_timestamp_to_int(current_timestamp)
-    # print(int_current_timestamp)
-    # int_current_minutes = convert_timestamp_to_int(current_minutes)
-    # print(int_current_minutes)
-    # int_time_1 = convert_timestamp_to_int(time_1)
-    # print(int_time_1)
-    # int_time_2 = convert_timestamp_to_int(time_2)
-    # print(int_time_2)
-    # # to_date_form_timestamp
-    # print(timestamp_to_date(int_current_timestamp))
-    # print(timestamp_to_date(int_current_minutes))
-    # print(timestamp_to_date(int_time_1))
-    # print(timestamp_to_date(int_time_2))
-    

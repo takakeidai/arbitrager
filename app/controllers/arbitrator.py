@@ -129,33 +129,4 @@ class Arbitrator():
             logger.error(f"Client=Arbitrator action=close_trade error={e}")
             raise       
     
-
-
-if __name__ == '__main__':
-    # Do Test in main.py
-    # Arbitrator 
-    # from app.controllers.arbitrator import Arbitrator
-    # from api.api_manager import ApiManager
-    # from app.models.product_codes import ProductCodes
-    # from app.models.multi_thread import MultiThread
-    # from app.controllers.judge import Judge
-    # from api.binance_api import Binance
-    # from api.bybit_api import Bybit
-    # import settings
-    
-    # codes = {
-    #     'btcusdt':'BTCUSDT', 
-    #     'ethusdt':'ETHUSDT', 
-    #     'bnbusdt':'BNBUSDT'}
-    
-    # product_codes = ProductCodes(codes)
-    # judge = Judge()
-    # multi_thread = MultiThread()
-    # binance = Binance(account_key = settings.ak_binance, api_secret = settings.as_binance)
-    # bybit = Bybit(account_key = settings.ak_bybit, api_secret = settings.as_bybit, end_point = settings.end_point) 
-       
-    # api_manager = ApiManager(bybit = bybit, binance = binance, judge = judge, multi_thread = multi_thread)
-    # arbitrator = Arbitrator(product_codes = product_codes, api_manager = api_manager)
-    # arbitrator.start_arbitrage()
-    
-    pass
+# end of line break

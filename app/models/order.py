@@ -17,3 +17,5 @@ class Order():
         self.side = self.kwargs['side']        
         self.type = 'MARKET'
         self.quantity = self.kwargs['quantity']
+
+# end of line break

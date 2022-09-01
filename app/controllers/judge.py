@@ -50,5 +50,6 @@ class Judge():
         # ここに margin-callのロジックを書く。
         return judgement    
     
-    
+# end of line break
+
         

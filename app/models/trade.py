@@ -19,4 +19,5 @@ class Trades():
         self.binance_price = kwargs['binance_price']
         self.side_of_binance = kwargs['side_of_binance']
         self.approx_profit = kwargs['approx_profit'] if 'approx_profit' in kwargs.keys() else None
-        
+    
+# end of line break

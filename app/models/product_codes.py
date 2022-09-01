@@ -40,35 +40,4 @@ class ProductCodes():
             return None
         return self.product_codes[code]
         
-
-
-if __name__ == '__main__':
-    # codes = {
-    #     'btcusdt':'BTCUSDT', 
-    #     'ethusdt':'ETHUSDT', 
-    #     'bnbusdt':'BNBUSDT'}
-    # pc = ProductCodes(codes)
-    
-    # print(pc.product_codes)
-    # print(type(pc.product_codes))
-    # print(len(pc.product_codes))
-    
-    # pc.set_product_code("XRPusdt")
-    # print(pc.product_codes)
-    # pc.set_product_code("solana")
-    # print(pc.product_codes)
-    
-    # print(pc.product_codes)
-    
-    # print(pc.product_codes['btcusdt'])
-    # print(pc.get_product_code('btcusdt'))
-    # print(pc.get_product_code('Dogecoin'))
-    # print(pc.get_product_code('usdt'))
-    
-    # print(pc.product_codes['btcusdt']['is_trading'])
-    # print(type(pc.product_codes['btcusdt']['is_trading']))
-
-    # pc.product_codes['btcusdt']['is_trading'] = True
-    # print(pc.product_codes['btcusdt']['is_trading'])
-
-    pass
+# end of line break
